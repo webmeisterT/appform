@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","root","root","crud_vue");
+$conn = new mysqli("localhost","missions_vueCrud","missions_vueCrud","missions_vueCrud");
 // $conn = new mysqli("localhost","missions_vueCrud","missions_vueCrud","missions_vueCrud");
 // require "connect.php";
 
