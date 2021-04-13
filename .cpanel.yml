@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/missions/public_html/appform
+    - /bin/cp -R * $DEPLOYPATH
+    
