@@ -1,16 +1,16 @@
 <?php
-$host = '127.0.0.1';
-$db   = 'missions_vueCrud';
-$user = 'missions_vueCrud';
-$pass = 'missions_vueCrud';
-$port = "3306";
-$charset = 'utf8mb4';
 // $host = '127.0.0.1';
-// $db   = 'crud_vue';
-// $user = 'root';
-// $pass = 'root';
+// $db   = 'missions_vueCrud';
+// $user = 'missions_vueCrud';
+// $pass = 'missions_vueCrud';
 // $port = "3306";
 // $charset = 'utf8mb4';
+$host = '127.0.0.1';
+$db   = 'crud_vue';
+$user = 'root';
+$pass = 'root';
+$port = "3306";
+$charset = 'utf8mb4';
 
 $options = [
     \PDO::ATTR_ERRMODE            => \PDO::ERRMODE_EXCEPTION,

@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","missions_vueCrud","missions_vueCrud","missions_vueCrud");
+$conn = new mysqli("localhost","root","root","crud_vue");
 // $conn = new mysqli("localhost","missions_vueCrud","missions_vueCrud","missions_vueCrud");
 // require "connect.php";
 
@@ -72,5 +72,5 @@ if ($action == 'DELETE') {
 }
 
 $conn->close();
-echo json_encode($result)
+echo json_encode($result);
 ?>
